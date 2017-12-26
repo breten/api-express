@@ -1,0 +1,31 @@
+{
+  "name": "APIproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuantu/APIproject.git"
+  },
+  "keywords": [],
+  "author": "nan <msg@nancode.cn> (http://nancode.cn/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuantu/APIproject/issues"
+  },
+  "homepage": "https://github.com/yuantu/APIproject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-promise-router": "^2.0.0",
+    "joi": "^13.0.2",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
